@@ -1,0 +1,315 @@
+
+.tab-full-section{
+    position: relative;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+    background: #fff;
+    max-width: 860px;
+    margin: 0 auto;
+}
+.tab-head-box{
+    padding: 20px;
+    color: #fff;
+    background: #23282d;
+    background: linear-gradient( 95deg ,#23282d 0,#323940 50%,#23282d 100%);
+    color: #fff;
+    margin: 0 -6px 2px;
+    border-radius: 5px;
+    box-shadow: 0 2px 12px -5px #23282d;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.tab-head-box .left-site{
+    width: 50%;
+    text-align: left;
+}
+.tab-head-box .left-right{
+    width: 50%;
+    text-align: right;
+}
+.tab-head-box .left-right .submit-btn[type="submit"] {
+    
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+ .submit-btn[type="submit"], .submit-btn[type="submit"]:focus {
+    background: #0074ff;
+    color: #fff;
+    border-bottom-color: transparent;
+    position: relative;
+    padding: 7px 20px;
+    cursor: pointer;
+    min-width: 80px;
+    position: relative;
+    border: 0;
+    border-radius: 0;
+    outline: 0;
+    border: 1px solid #0074ff;
+}
+.tab-head-box .left-right .submit-btn[type="submit"]:hover{
+    background: none;
+}
+ .from-buttom .submit-btn[type="submit"]:hover{
+    background: #23282d;
+} 
+/*headder area end*/
+.tabs-container{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;  
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.box-head{
+    width: 20%;
+}
+.tab-nav{
+    margin: 0;
+    border-right: 1px solid #ddd;
+    height: 100%;  
+}
+.tabs-manu li{
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.tab-nav a {
+    display: block;
+    line-height: 16px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .3px;
+    color: #6a6f77;
+    text-decoration: none;
+    background: #f7f7f7;
+    padding: 13px 20px;
+    border-bottom: 1px solid #e3e3e3;
+    outline: 0;
+    box-shadow: none;
+    transition: all .2s ease;
+}
+.tab-nav li.active a {
+    background: #008aff;
+    background: linear-gradient(95deg,#36a2ff 0,#008aff 50%,#0072ff 100%);
+    color: #fff;
+    margin: 0 -6px;
+    border-radius: 5px;
+    box-shadow: 0 2px 12px -5px #36a2ff;
+    border-bottom-color: transparent;
+    position: relative;
+}
+/*left site button  end*/
+.box-content{
+    width: 80%;
+}
+.from-buttom{
+    position: absolute;
+    bottom:5px;
+    right: 5px;
+    z-index: 1; 
+}
+.tab-box{
+    position: relative;
+    height: 100%;
+    padding: 30px 40px;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+} 
+/*tab body end*/
+.tf-tab-container {
+    position: relative;
+    height: 100%;
+    padding: 30px 40px;
+}
+.tf-tab-content.active {
+    display: block;
+    opacity: 1;
+    transform: translateX(0);
+    height: auto;
+}
+.tf-tab-content{
+    display: none;
+}
+.single-box{
+    margin-bottom: 25px;
+    width: 50%;
+    padding: 0 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.box-inner{
+    border: 1px solid transparent;
+    padding: 20px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 8%);
+    border-radius: 10px;
+    height: 110%; 
+}
+.box-content ul li:before{
+  content: '\f00c';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: bold;
+   transition: color .1s ease-in;
+    margin-right: 8px;
+    display: inline-block;
+    line-height: 1;
+    width: 16px;
+    height: 16px;
+    font-size:16px;
+    vertical-align: top;
+    text-align: center;
+    transition: color .1s ease-in;
+    transition-property: color;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+    margin-right: 8px;
+    margin-top: 5px;   
+}
+.single-bd-box{
+    margin-bottom: 20px;
+}
+.single-box{
+    margin-bottom: 80px;
+}
+.single-box .box-content p{
+    margin-bottom: 10px;
+}
+.box-bg-2{
+    margin-bottom: 65px;
+}
+.single-box {
+    width: 50%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.box-contan{
+    margin-top: 20px;
+}
+
+.box-content p{
+    margin-top: 4px;
+    margin-bottom: -10px;
+    font-size: 14px;
+}
+/*welcome area end*/
+.tf-tab-container h4 {
+    text-transform: capitalize;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 6px;
+    margin: 0 0 16px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.tf-tab-container title{
+    font-size: 12px;
+    font-weight: normal;
+    clear: both;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 5px 0;
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+}
+/* ganeral Aelector*/
+
+.general-box-2 form{
+    padding: 20px 30px;
+}
+.general-box-2 .input-title{
+    display: flex;
+}
+.general-box-2 .input-title .input-left{
+    width:250px;
+    height: 100px;
+}
+.general-box-2 .input-title .input-right{
+   margin-left : 50px;
+}
+.general-box-2 h2 {
+    color: #1d2327;
+    font-size: 23px;
+    font-weight: 600;
+   margin-bottom: 15px;
+}
+.general-box-2 form h5{
+    margin-bottom: 5px;
+    color: #666;
+    font-size: 13px;
+    font-weight: 400;
+   
+}
+.general-box-2 .input-left h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #1d2327;
+    margin-top: 10px;
+    margin-bottom: -6px;
+}
+.general-box-2 .input-left p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #666;
+    line-height:-5px;
+    margin-top: 10px;
+}
+/*Design segtion start*/
+
+.design-sction h2{
+    color: #1d2327;
+    font-size: 19px;
+    margin-bottom: 17px;
+}
+.design-sction p{
+    color: #66667E;
+}
+.design-sction .panel{
+    font-size: 16px;
+    color: #1d2327;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.design-flex-box{
+    margin-left: 40px;
+}
+.design-box{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:30px;
+}
+.design-box h3 {
+   margin-top: 45px;
+    color: #1d2327;
+    font-size: 19px;
+}
+.design-box h5{
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+}
+.design-box .design-box-left{
+   width: 250px;
+   padding-right: 20px;
+}
+.design-box .design-box-left p{
+    margin-top: -5px;
+ }
+
+
+ 
+ 
